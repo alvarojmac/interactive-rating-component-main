@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: #121417;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container {
+    margin: auto;
+}
+
+.wrapper {
+    width: 340px;
+    height: 350px;
+    background-color: #252d37;
+    color: #959eac;
+    border-radius: 20px;
+    padding: 22px;
+}
+
+.star {
+    display: flex;
+    background-color: #373e46;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.star img {
+    width: 35%;
+}
+
+.text-box h1, p {
+    margin-bottom: 20px;
+}
+
+.text-box p {
+    line-height: 22px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+button.btn{
+    background-color: #373e46;
+    color: #959eac;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+li .btn:hover {
+    background-color: #ff8400;
+    color: #fff;
+    transition: .3s;
+}
+
+li .btn:focus {
+    background-color: #959eac;
+    color: #fff;
+}
+
+button.btn-submit {
+    background-color: #ff8400;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+button.btn-submit:hover {
+    background-color: #fff;
+    color: #ff8400;
+    transition: .3s;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 20px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.thank-you-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-you-text h1 {
+    margin: 10px 0;
+}
+
+.thank-you-text p {
+    text-align: center;
+}
+
+.rates {
+    background-color: #373e46;
+    color: #ff8400;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
